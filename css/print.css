@@ -1,0 +1,25 @@
+@media print {
+  @page {
+    margin: 1cm;
+  }
+
+.description__img{
+  display: none;
+}
+.advertisement_img{
+  display: none;
+}
+.
+.advertisement{
+  page-break-before: always;
+}
+.delivery{
+  display: none;
+}
+.delivery__h1{
+  margin-bottom: 2cm;
+}
+.centers{
+  page-break-before: always;
+}
+}
