@@ -20,25 +20,25 @@
 <body>
     <nav class="nav">
         <ul class="nav__ul flex justify-center">
-            <li class="nav__item">Каталог</li>
-            <li class="nav__item">О компании</li>
-            <li class="nav__item">Способы оплаты</li>
-            <li class="nav__item">Доставка</li>
-            <li class="nav__item">Отзывы</li>
-            <li class="nav__item">Дисконтные карты</li>
-            <li class="nav__item">Видео</li>
-            <li class="nav__item">Контакты</li>
+            <li class="nav__item"><a href="#">Каталог</a></li>
+            <li class="nav__item"><a href="#">О компании</a></li>
+            <li class="nav__item"><a href="#">Способы оплаты</a></li>
+            <li class="nav__item"><a href="#">Доставка</a></li>
+            <li class="nav__item"><a href="#">Отзывы</a></li>
+            <li class="nav__item"><a href="#">Дисконтные карты</a></li>
+            <li class="nav__item"><a href="#">Видео</a></li>
+            <li class="nav__item"><a href="#">Контакты</a></li>
             <div class="nav__vertborder"></div>
-            <li class="nav__item"><img class="nav__svg" src="img/user.svg" width="16" height="16">Войти</li>
-            <li class="nav__item"><img class="nav__svg" src="img/logout.svg" width="16" height="16">Регистрация</li>
+            <li class="nav__item"><img class="nav__svg" src="img/user.svg" width="16" height="16" alt="Человек"><a href="#">Войти</a></li>
+            <li class="nav__item"><img class="nav__svg" src="img/logout.svg" width="16" height="16" alt="Вход"><a href="#">Регистрация</a></li>
         </ul>
 
         <hr class="nav__hr">
     </nav>
 
     <header class="header flex justify-space-between">
-        <div class="header__img align-self-center"><img src="img/flora-markt.png" width="156" height="41"></div>
-        <div class="header__svg align-self-center"><img src="img/shopping-cart.svg" width="27" height="27"></div>
+        <div class="header__img align-self-center"><img src="img/flora-markt.png" width="156" height="41" alt="Логотип"></div>
+        <div class="header__svg align-self-center"><img src="img/shopping-cart.svg" width="27" height="27" alt="Корзина"></div>
         <div class="header__price align-self-center">
             <p class="header__paragraph">0 ₽</p>
         </div>
@@ -46,7 +46,7 @@
     </header>
 
     <div id="header">
-        <img src="img/flora-markt-desktop.svg">
+        <img src="img/flora-markt-desktop.svg" alt="Логотип">
         <div class="header__number">
             <p class="header__paragraph number">+7 965 151 18 39</p>
             <p class="header__paragraph number">+7 916 122 18 98</p>
@@ -54,24 +54,24 @@
 
         <div class="header__third">
             <div class="header__clock">
-                <img id = "header__clock" src="img/clock.svg">
+                <img id = "header__clock" src="img/clock.svg" alt="Часы">
                 <p class="header__paragraph">Ждем вас с 8:00 до 22:00</p>
             </div>
 
             <div class="header__pointer">
-                <img id="header__pointer" src="img/marker.svg">
+                <img id="header__pointer" src="img/marker.svg" alt="Маркер">
                 <p class="header__paragraph">Адреса цветочных центров</p>
             </div>
         </div>
 
         <div class="header__basket">
             <div class="header__starred">
-                <img id="header__heart" src="img/heart.svg">
+                <a href=""><img id="header__heart" src="img/heart.svg" alt="Сердце"></a>
                 <p class="header__paragraph starred">Избранное</p>
             </div>
 
             <div class="header__trash">
-                <img id="header__shopping-cart" src="img/shopping-cart.svg">
+                <a href=""><img id="header__shopping-cart" src="img/shopping-cart.svg" alt="Корзина"></a></a>
                 <p class="header__paragraph money">0 ₽</p>
             </div>
         </div>
@@ -100,8 +100,8 @@
         <section class="advertisement">
 
             <div class="advertisement_img">
-                <img id="advertisement_img-mobile" src="img/advertisement-mobile.png" width="320" height="320">
-                <img id="advertisement_img" src="img/advertisement.png">
+                <img id="advertisement_img-mobile" src="img/advertisement-mobile.png" width="320" height="320" alt="цветы">
+                <img id="advertisement_img" src="img/advertisement.png" alt="цветы">
             </div>
 
             <div class="advertisement__add flex">
@@ -110,7 +110,7 @@
 
                 <div class="advertisement__link flex">
                     <a id="advertisement__link" href="">Перейти в каталог</a>
-                    <img class="advertisement__link__img" src="img/angle-right.svg">
+                    <img class="advertisement__link__img" src="img/angle-right.svg" alt="Стрелка вправо">
                 </div>
 
             </div>
@@ -134,7 +134,7 @@
             <div class="delivery__choice flex">
                 <div class="delivery__choice-item flex">
                     <p class="delivery__paragraph">Цена ...</p>
-                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16">
+                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16" alt="Стрелка вниз">
                 </div>
 
                 <hr class="delivery__hr-mobile">
@@ -142,7 +142,7 @@
 
                 <div class="delivery__choice-item flex">
                     <p class="delivery__paragraph">Цветы ...</p>
-                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16">
+                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16" alt="Стрелка вниз">
                 </div>
 
                 <hr class="delivery__hr-mobile">
@@ -150,7 +150,7 @@
 
                 <div class="delivery__choice-item flex">
                     <p class="delivery__paragraph">Кому ...</p>
-                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16">
+                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16" alt="Стрелка вниз">
                 </div>
 
                 <hr class="delivery__hr-mobile">
@@ -158,7 +158,7 @@
 
                 <div class="delivery__choice-item flex">
                     <p class="delivery__paragraph">Повод ...</p>
-                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16">
+                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16" alt="Стрелка вниз">
                 </div>
 
                 <hr class="delivery__hr-mobile">
@@ -166,7 +166,7 @@
 
                 <div class="delivery__choice-item delivery__rounded flex">
                     <p class="delivery__paragraph">Стиль ...</p>
-                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16">
+                    <img class="delivery__img" src="img/angle-down.svg" width="16" height="16" alt="Стрелка вниз">
                 </div>
             </div>
         </section>
@@ -181,78 +181,78 @@
 
                 <div class="centers__stations flex">
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Марьино</p>
+                            <p class="centers__paragraph"><a href="">м. Марьино</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Белорусская</p>
+                            <p class="centers__paragraph"><a href="">м. Белорусская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Щёлковская</p>
+                            <p class="centers__paragraph"><a href="">м. Щёлковская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Профсоюзная</p>
+                            <p class="centers__paragraph"><a href="">м. Профсоюзная</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Площадь Ильича</p>
+                            <p class="centers__paragraph"><a href="">м. Площадь Ильича</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Каширская</p>
+                            <p class="centers__paragraph"><a href="">м. Каширская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Братиславская</p>
+                            <p class="centers__paragraph"><a href="">м. Братиславская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Нахимовский проспект</p>
+                            <p class="centers__paragraph"><a href="">м. Нахимовский проспект</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Полянка</p>
+                            <p class="centers__paragraph"><a href="">м. Полянка</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Кантемировская</p>
+                            <p class="centers__paragraph"><a href="">м. Кантемировская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Варшавская</p>
+                            <p class="centers__paragraph"><a href="">м. Варшавская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Новогиреево</p>
+                            <p class="centers__paragraph"><a href="">м. Новогиреево</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Дмитровская</p>
+                            <p class="centers__paragraph"><a href="">м. Дмитровская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Академическая</p>
+                            <p class="centers__paragraph"><a href="">м. Академическая</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Текстильщики</p>
+                            <p class="centers__paragraph"><a href="">м. Текстильщики</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Университет</p>
+                            <p class="centers__paragraph"><a href="">м. Университет</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Пролетарская</p>
+                            <p class="centers__paragraph"><a href="">м. Пролетарская</a></p>
                         </div>
 
                         <div class="centers__item">
-                            <p class="centers__paragraph">м. Красносельская</p>
+                            <p class="centers__paragraph"><a href="">м. Красносельская</a></p>
                         </div>
                         <div class="centers__item centers__last-item">
-                            <p class="centers__paragraph">м. Черкизовская</p>
+                            <p class="centers__paragraph"><a href="">м. Черкизовская</a></p>
                         </div>
                 </div>
             </div>
@@ -279,7 +279,7 @@
                         </div>
 
                         <div class="description__img">
-                            <img id="description__img" src="img/woman1.png" width="290" height="193">
+                            <img id="description__img" src="img/woman1.png" width="290" height="193" alt="Женщина">
                         </div>
 
                         <div class="description__main-subtitle">
@@ -295,7 +295,7 @@
                 </div>
 
                 <div class="description__img">
-                    <img id="description__img" src="img/woman2.png" width="290" height="193">
+                    <img id="description__img" src="img/woman2.png" width="290" height="193" alt="Женщина2">
                 </div>
 
 
@@ -314,7 +314,7 @@
                 <div id="id">
 
                 <div class="description__img">
-                    <img id="description__img" src="img/woman1.png" width="290" height="193">
+                    <img id="description__img" src="img/woman1.png" width="290" height="193" alt="Женщина">
                 </div>
 
                 <div id="description__text-1">
@@ -351,7 +351,7 @@
                 </div>
 
                     <div class="description__img">
-                        <img id="description__img" src="img/woman2.png" width="290" height="193">
+                        <img id="description__img" src="img/woman2.png" width="290" height="193" alt="Женщина2">
                     </div>
                 </div>
             </div>
@@ -362,11 +362,11 @@
       <div class="news__title">
         <h1 class="news__h1">НОВОСТИ</h1>
         <a class="news__h2" href="">Все новости
-        <img class="advertisement__link__img" src="img/angle-right.svg"></a>
+        <img class="advertisement__link__img" src="img/angle-right.svg" alt="Стрелка вправо"></a>
       </div>
       <div class="news__adaptive">
         <div class="news__vacancy">
-          <p class="news__h3">Вакансия флориста</p>
+          <p class="news__h3"><a href="" class="news__h3">Вакансия флориста</a></p>
           <p class="news__h4">26.12.2020</p>
           <p class="news__h5"> <b>Требования:</b><br>
             Опыт работы с горшечными растениями; <br>
@@ -374,7 +374,7 @@
             Хороший вкус и творческий потенциал, приветствуется;</p>
         </div>
         <div class="news__vacancy news__media">
-          <h3 class="news__h3">Цветочная компания ФлораМаркт делает уникальное предложение для корпоративных клиентов</h3>
+          <h3 class="news__h3"><a href="" class="news__h3">Цветочная компания ФлораМаркт делает уникальное предложение для корпоративных клиентов</a></h3>
           <h4 class="news__h4">26.12.2020</h4>
           <h5 class="news__h5"> Сделайте Ваш бизнес более привлекательным с помощью цветов!<br>
             Ваша репутация может опережать Вас, вы можете быть на вершине славы, но вот как сохранить ее?
@@ -387,7 +387,7 @@
       <p class="follow__h1">Подписаться на скидки и акции</p>
       <input class="follow__input "alt="text" placeholder="Ваш Email">
       <p class="follow__paragraph">Мы присылаем письма не чаще 1 раза в месяц</p>
-      <button type="submit" class="follow__button">Подписаться</button>
+      <button type="submit" class="follow__button"><a href="">Подписаться</a></button>
     </section>
 </body>
 </html>
