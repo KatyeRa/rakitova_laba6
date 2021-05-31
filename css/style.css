@@ -371,6 +371,29 @@ h1, h2, h3, h4, h5, h6, span, p, button, a, div {
 .description__main-desktop{
     display: none;
 }
+
+.header__info-print{
+  display: none;
+}
+
+.flower-buy__title{
+    text-align: center;
+}
+
+.flower-buy__img{
+    text-align: center;
+}
+
+#flower-buy__title{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 32px;
+
+    text-align: center;
+}
 /* description*/
 
 
@@ -426,6 +449,9 @@ h1, h2, h3, h4, h5, h6, span, p, button, a, div {
       display: flex;
       flex-direction: column;
     }
+    .header__info-print{
+      display: none;
+    }
 }
 
 
@@ -442,6 +468,9 @@ h1, h2, h3, h4, h5, h6, span, p, button, a, div {
 
     .delivery__choice{
         width: 330px;
+    }
+    .header__info-print{
+      display: none;
     }
 }
 
@@ -703,6 +732,9 @@ h1, h2, h3, h4, h5, h6, span, p, button, a, div {
     .news__media{
       display: block;
     }
+    .header__info-print{
+      display: none;
+    }
 }
 
 
@@ -755,6 +787,9 @@ h1, h2, h3, h4, h5, h6, span, p, button, a, div {
   }
   .news__title{
     flex-direction: column;
+  }
+  .header__info-print{
+    display: none;
   }
 }
 

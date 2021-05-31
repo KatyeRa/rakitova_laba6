@@ -30,4 +30,19 @@
   .news__h3{
     font-style: normal;
   }
+  .header__info-print{
+    display: block;
+  }
+  .follow{
+    display: none;
+  }
+  .header__svg {
+    display: none;
+  }
+  .flower-buy__img{
+    display: none;
+  }
+  .money{
+    display: none;
+  }
 }
