@@ -42,6 +42,9 @@
   .flower-buy__img{
     display: none;
   }
+  .flower-buy__title{
+    display: none;
+  }
   .money{
     display: none;
   }
